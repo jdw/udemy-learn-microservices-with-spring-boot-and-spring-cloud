@@ -13,4 +13,6 @@ import com.itemsharing.itemservice.model.User;
 public interface ItemRepository extends CrudRepository<Item, Long> {
 	List<Item> findByUser(User user);
 	Item findByName(String name);
+	Item findById(Long id);
+	void deleteById(Long id);
 }

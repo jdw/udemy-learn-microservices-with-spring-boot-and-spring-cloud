@@ -9,12 +9,12 @@
 	<packaging>pom</packaging>
 
 	<name>itemsharing</name>
-	<description>itemsharing parent project</description>
+	<description>item sharing parent project</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.0.6.RELEASE</version>
+		<version>1.5.7.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
@@ -28,6 +28,8 @@
 		<module>userservice</module>
 		<module>itemservice</module>
 		<module>itemsharing.userservice</module>
+		<module>itemsharing.itemservice</module>
+		<module>itemsharing.configserver</module>
 	</modules>
 
 	<dependencies>

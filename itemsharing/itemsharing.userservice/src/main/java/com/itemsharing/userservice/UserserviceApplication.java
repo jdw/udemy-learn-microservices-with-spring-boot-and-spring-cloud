@@ -28,16 +28,17 @@ public class UserserviceApplication implements CommandLineRunner {
 		user.setFirstName("HeJ");
 		user.setLastName("padig");
 		user.setEmail("oink@boink.com");
+		user.setId(1);
 		
 		user.setUsername("testy");
 		user.setPassword("pass");
-		
+
 		Set<UserRole> roles = new HashSet<>();
 		Role role1 = new Role();
 		role1.setRoleId(1);
 		role1.setName("ROLE_USER");
 		roles.add(new UserRole(user, role1));
-		
+	
 		userService.createUser(user);
 	}
 
