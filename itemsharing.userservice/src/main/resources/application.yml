@@ -4,7 +4,6 @@
 #     hibernate:
 #       ddl-auto: update
 #     properties:
-#       hibernate:
 #         dialect: "org.hibernate.dialect.MySQL5Dialect"
 #   database:
 #     driverClassName: "com.mysql.jdbc.Driver"
@@ -14,10 +13,10 @@
 #     password: ""
 #     testWhileIdle: true
 #     validationQuery: "SELECT 1"
-#        
+#
 # security:
 #   basic:
 #     enable: false
-#     
+
 # server:
 #   port: 8081
