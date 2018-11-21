@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.config.server.EnableConfigServer;
 
 import com.itemsharing.userservice.model.Role;
 import com.itemsharing.userservice.model.User;
@@ -15,7 +14,6 @@ import com.itemsharing.userservice.model.UserRole;
 import com.itemsharing.userservice.service.UserService;
 
 @SpringBootApplication
-@EnableConfigServer
 public class UserserviceApplication implements CommandLineRunner {
 	@Autowired
 	private UserService userService;
