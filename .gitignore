@@ -56,5 +56,6 @@ local.properties
 .worksheet
 
 **/target/
-**/.project/
-**/.classpath/
+**/.project
+**/.classpath
+**/.settings/
